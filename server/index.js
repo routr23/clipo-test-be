@@ -50,11 +50,6 @@ app.get('/api/admin', (req, res) => {
   res.json({ status: 'ok', message: 'Admin endpoint is working' });
 });
 
-app.get('/api/public', (req, res) => {
-  res.json({ status: 'ok', message: 'Public endpoint is working' });
-});
-
-
 // Connect to MongoDB
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/clipo';
