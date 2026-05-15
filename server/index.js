@@ -8,7 +8,6 @@ const authRoutes = require('./routes/auth');
 const chatRoutes = require('./routes/chat');
 const adminRoutes = require('./routes/admin');
 const feedbackRoutes = require('./routes/feedback');
-const publicRoutes = require('./routes/public');
 
 const app = express();
 
